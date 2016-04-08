@@ -94,6 +94,9 @@
     <Reference Include="SyntaxTree.VisualStudio.Unity.Bridge">
       <HintPath>Library\UnityAssemblies\SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
     </Reference>
+    <Reference Include="Assembly-UnityScript">
+      <HintPath>Library\ScriptAssemblies\Assembly-UnityScript.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Blue ball.CSharp.csproj">
@@ -102,42 +105,51 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\FacebookSDK\SDK\Editor\FacebookBuild.cs" />
-    <Compile Include="Assets\FacebookSDK\SDK\Editor\FacebookConsoleEndpoint.cs" />
-    <Compile Include="Assets\FacebookSDK\SDK\Editor\FacebookPostprocess.cs" />
-    <Compile Include="Assets\FacebookSDK\SDK\Editor\FacebookSettingsEditor.cs" />
-    <Compile Include="Assets\FacebookSDK\SDK\Editor\Utility.cs" />
-    <Compile Include="Assets\FacebookSDK\SDK\Editor\android\FacebookAndroidUtil.cs" />
-    <Compile Include="Assets\FacebookSDK\SDK\Editor\android\ManifestMod.cs" />
-    <Compile Include="Assets\FacebookSDK\SDK\Editor\iOS\FixupFiles.cs" />
-    <Compile Include="Assets\FacebookSDK\SDK\Editor\iOS\PListDict.cs" />
-    <Compile Include="Assets\FacebookSDK\SDK\Editor\iOS\PListParser.cs" />
-    <Compile Include="Assets\Tiled2Unity\Scripts\Editor\CustomTiledImporterAttribute.cs" />
-    <Compile Include="Assets\Tiled2Unity\Scripts\Editor\ICustomTiledImporter.cs" />
-    <Compile Include="Assets\Tiled2Unity\Scripts\Editor\ImportTiled2Unity.Material.cs" />
-    <Compile Include="Assets\Tiled2Unity\Scripts\Editor\ImportTiled2Unity.Mesh.cs" />
-    <Compile Include="Assets\Tiled2Unity\Scripts\Editor\ImportTiled2Unity.Texture.cs" />
-    <Compile Include="Assets\Tiled2Unity\Scripts\Editor\ImportTiled2Unity.Xml.cs" />
-    <Compile Include="Assets\Tiled2Unity\Scripts\Editor\ImportTiled2Unity.cs" />
-    <Compile Include="Assets\Tiled2Unity\Scripts\Editor\ImportUtils.cs" />
-    <Compile Include="Assets\Tiled2Unity\Scripts\Editor\SortingLayerExposedEditor.cs" />
-    <Compile Include="Assets\Tiled2Unity\Scripts\Editor\Tiled2UnityMenuItems.cs" />
-    <Compile Include="Assets\Tiled2Unity\Scripts\Editor\TiledAssetPostProcessor.cs" />
+    <Compile Include="Assets\QuickCutsceneCreator\Demo\Scripts\Editor\QCDebugLineEditor.cs" />
+    <Compile Include="Assets\QuickCutsceneCreator\Scripts\Editor\QCAnimationAddonEditor.cs" />
+    <Compile Include="Assets\QuickCutsceneCreator\Scripts\Editor\QCLegacyAnimationAddonEditor.cs" />
+    <Compile Include="Assets\QuickCutsceneCreator\Scripts\Editor\QCNavigatorAddonEditor.cs" />
+    <Compile Include="Assets\QuickCutsceneCreator\Scripts\Editor\QuickTakeCutsceneControllerEditor.cs" />
+    <Compile Include="Assets\Unity SDK\FacebookSDK\SDK\Editor\FacebookBuild.cs" />
+    <Compile Include="Assets\Unity SDK\FacebookSDK\SDK\Editor\FacebookConsoleEndpoint.cs" />
+    <Compile Include="Assets\Unity SDK\FacebookSDK\SDK\Editor\FacebookPostprocess.cs" />
+    <Compile Include="Assets\Unity SDK\FacebookSDK\SDK\Editor\FacebookSettingsEditor.cs" />
+    <Compile Include="Assets\Unity SDK\FacebookSDK\SDK\Editor\Utility.cs" />
+    <Compile Include="Assets\Unity SDK\FacebookSDK\SDK\Editor\android\FacebookAndroidUtil.cs" />
+    <Compile Include="Assets\Unity SDK\FacebookSDK\SDK\Editor\android\ManifestMod.cs" />
+    <Compile Include="Assets\Unity SDK\FacebookSDK\SDK\Editor\iOS\FixupFiles.cs" />
+    <Compile Include="Assets\Unity SDK\FacebookSDK\SDK\Editor\iOS\PListDict.cs" />
+    <Compile Include="Assets\Unity SDK\FacebookSDK\SDK\Editor\iOS\PListParser.cs" />
+    <Compile Include="Assets\Unity SDK\Tiled2Unity\Scripts\Editor\CustomTiledImporterAttribute.cs" />
+    <Compile Include="Assets\Unity SDK\Tiled2Unity\Scripts\Editor\ICustomTiledImporter.cs" />
+    <Compile Include="Assets\Unity SDK\Tiled2Unity\Scripts\Editor\ImportTiled2Unity.Material.cs" />
+    <Compile Include="Assets\Unity SDK\Tiled2Unity\Scripts\Editor\ImportTiled2Unity.Mesh.cs" />
+    <Compile Include="Assets\Unity SDK\Tiled2Unity\Scripts\Editor\ImportTiled2Unity.Texture.cs" />
+    <Compile Include="Assets\Unity SDK\Tiled2Unity\Scripts\Editor\ImportTiled2Unity.Xml.cs" />
+    <Compile Include="Assets\Unity SDK\Tiled2Unity\Scripts\Editor\ImportTiled2Unity.cs" />
+    <Compile Include="Assets\Unity SDK\Tiled2Unity\Scripts\Editor\ImportUtils.cs" />
+    <Compile Include="Assets\Unity SDK\Tiled2Unity\Scripts\Editor\SortingLayerExposedEditor.cs" />
+    <Compile Include="Assets\Unity SDK\Tiled2Unity\Scripts\Editor\Tiled2UnityMenuItems.cs" />
+    <Compile Include="Assets\Unity SDK\Tiled2Unity\Scripts\Editor\TiledAssetPostProcessor.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Assets\FacebookSDK\SDK\Editor\android\DefaultAndroidManifest.xml" />
-    <None Include="Assets\FacebookSDK\SDK\Scripts\Canvas\Resources\JSSDKBindings.txt" />
-    <None Include="Assets\Tiled2Unity\Imported\_ReadMe.txt" />
-    <None Include="Assets\Tiled2Unity\Imported\forest.tiled2unity.xml" />
-    <None Include="Assets\Tiled2Unity\Imported\forest2.tiled2unity.xml" />
-    <None Include="Assets\Tiled2Unity\Imported\forest3.tiled2unity.xml" />
-    <None Include="Assets\Tiled2Unity\License.txt" />
-    <None Include="Assets\Tiled2Unity\Materials\_ReadMe.txt" />
-    <None Include="Assets\Tiled2Unity\Meshes\_ReadMe.txt" />
-    <None Include="Assets\Tiled2Unity\Prefabs\_ReadMe.txt" />
-    <None Include="Assets\Tiled2Unity\Shaders\shaTiledMap.shader" />
-    <None Include="Assets\Tiled2Unity\Textures\_ReadMe.txt" />
-    <None Include="Assets\Tiled2Unity\Tiled2Unity.export.txt" />
+    <None Include="Assets\Unity SDK\FacebookSDK\SDK\Editor\android\DefaultAndroidManifest.xml" />
+    <None Include="Assets\Unity SDK\FacebookSDK\SDK\Scripts\Canvas\Resources\JSSDKBindings.txt" />
+    <None Include="Assets\Unity SDK\Fonts\OFL.txt" />
+    <None Include="Assets\Unity SDK\Plugins\Android\AndroidManifest.xml" />
+    <None Include="Assets\Unity SDK\Tiled2Unity\Imported\Fire terran.tiled2unity.xml" />
+    <None Include="Assets\Unity SDK\Tiled2Unity\Imported\Fire terran2.tiled2unity.xml" />
+    <None Include="Assets\Unity SDK\Tiled2Unity\Imported\_ReadMe.txt" />
+    <None Include="Assets\Unity SDK\Tiled2Unity\Imported\forest.tiled2unity.xml" />
+    <None Include="Assets\Unity SDK\Tiled2Unity\Imported\forest2.tiled2unity.xml" />
+    <None Include="Assets\Unity SDK\Tiled2Unity\Imported\forest3.tiled2unity.xml" />
+    <None Include="Assets\Unity SDK\Tiled2Unity\License.txt" />
+    <None Include="Assets\Unity SDK\Tiled2Unity\Materials\_ReadMe.txt" />
+    <None Include="Assets\Unity SDK\Tiled2Unity\Meshes\_ReadMe.txt" />
+    <None Include="Assets\Unity SDK\Tiled2Unity\Prefabs\_ReadMe.txt" />
+    <None Include="Assets\Unity SDK\Tiled2Unity\Shaders\shaTiledMap.shader" />
+    <None Include="Assets\Unity SDK\Tiled2Unity\Textures\_ReadMe.txt" />
+    <None Include="Assets\Unity SDK\Tiled2Unity\Tiled2Unity.export.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\SyntaxTree\UnityVS\2015\UnityVS.CSharp.targets" />
 </Project>
