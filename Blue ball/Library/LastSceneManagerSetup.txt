@@ -1,4 +1,43 @@
 sceneSetups:
-- path: Assets/Levels/Fire Level 2.unity
+- path: Assets/Levels/InputHighScore.unity
+  isLoaded: 0
+  isActive: 0
+- path: Assets/Levels/InputHighScore.unity
+  isLoaded: 0
+  isActive: 0
+- path: Assets/Levels/InputHighScore.unity
+  isLoaded: 0
+  isActive: 0
+- path: Assets/Levels/InputHighScore.unity
+  isLoaded: 0
+  isActive: 0
+- path: Assets/Levels/InputHighScore.unity
+  isLoaded: 0
+  isActive: 0
+- path: Assets/Levels/InputHighScore.unity
+  isLoaded: 0
+  isActive: 0
+- path: Assets/Levels/InputHighScore.unity
+  isLoaded: 0
+  isActive: 0
+- path: Assets/Levels/InputHighScore.unity
+  isLoaded: 0
+  isActive: 0
+- path: Assets/Levels/InputHighScore.unity
+  isLoaded: 0
+  isActive: 0
+- path: Assets/Levels/InputHighScore.unity
+  isLoaded: 0
+  isActive: 0
+- path: Assets/Levels/InputHighScore.unity
+  isLoaded: 0
+  isActive: 0
+- path: Assets/Levels/InputHighScore.unity
   isLoaded: 1
   isActive: 1
+- path: Assets/Levels/InputHighScore.unity
+  isLoaded: 0
+  isActive: 0
+- path: Assets/Levels/InputHighScore.unity
+  isLoaded: 0
+  isActive: 0

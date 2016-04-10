@@ -94,9 +94,6 @@
     <Reference Include="SyntaxTree.VisualStudio.Unity.Bridge">
       <HintPath>Library\UnityAssemblies\SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
     </Reference>
-    <Reference Include="Assembly-UnityScript">
-      <HintPath>Library\ScriptAssemblies\Assembly-UnityScript.dll</HintPath>
-    </Reference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Blue ball.CSharp.csproj">
@@ -105,11 +102,6 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\QuickCutsceneCreator\Demo\Scripts\Editor\QCDebugLineEditor.cs" />
-    <Compile Include="Assets\QuickCutsceneCreator\Scripts\Editor\QCAnimationAddonEditor.cs" />
-    <Compile Include="Assets\QuickCutsceneCreator\Scripts\Editor\QCLegacyAnimationAddonEditor.cs" />
-    <Compile Include="Assets\QuickCutsceneCreator\Scripts\Editor\QCNavigatorAddonEditor.cs" />
-    <Compile Include="Assets\QuickCutsceneCreator\Scripts\Editor\QuickTakeCutsceneControllerEditor.cs" />
     <Compile Include="Assets\Unity SDK\FacebookSDK\SDK\Editor\FacebookBuild.cs" />
     <Compile Include="Assets\Unity SDK\FacebookSDK\SDK\Editor\FacebookConsoleEndpoint.cs" />
     <Compile Include="Assets\Unity SDK\FacebookSDK\SDK\Editor\FacebookPostprocess.cs" />
@@ -133,6 +125,7 @@
     <Compile Include="Assets\Unity SDK\Tiled2Unity\Scripts\Editor\TiledAssetPostProcessor.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Assets\Plugins\Android\AndroidManifest.xml" />
     <None Include="Assets\Unity SDK\FacebookSDK\SDK\Editor\android\DefaultAndroidManifest.xml" />
     <None Include="Assets\Unity SDK\FacebookSDK\SDK\Scripts\Canvas\Resources\JSSDKBindings.txt" />
     <None Include="Assets\Unity SDK\Fonts\OFL.txt" />

@@ -63,35 +63,21 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\QuickCutsceneCreator\Demo\Scripts\QCDebugLine.cs" />
-    <Compile Include="Assets\QuickCutsceneCreator\Demo\Scripts\QCDemoBroadcastMessageReceiver.cs" />
-    <Compile Include="Assets\QuickCutsceneCreator\Demo\Scripts\QCDemoStartScript.cs" />
-    <Compile Include="Assets\QuickCutsceneCreator\Demo\Scripts\QCJoystickToEvents.cs" />
-    <Compile Include="Assets\QuickCutsceneCreator\Demo\Scripts\QCLocomotion.cs" />
-    <Compile Include="Assets\QuickCutsceneCreator\Demo\Scripts\QCLocomotionPlayer.cs" />
-    <Compile Include="Assets\QuickCutsceneCreator\Demo\Scripts\QCScreenshotMovieScript.cs" />
-    <Compile Include="Assets\QuickCutsceneCreator\Demo\Scripts\QCSequentialPlayer.cs" />
-    <Compile Include="Assets\QuickCutsceneCreator\Demo\Scripts\QCTargetFrameRate.cs" />
-    <Compile Include="Assets\QuickCutsceneCreator\Demo\Scripts\QCTriggerScript.cs" />
-    <Compile Include="Assets\QuickCutsceneCreator\Scripts\Helper\QCBezier.cs" />
-    <Compile Include="Assets\QuickCutsceneCreator\Scripts\Helper\QCComponentMember.cs" />
-    <Compile Include="Assets\QuickCutsceneCreator\Scripts\QCAnimationAddon.cs" />
-    <Compile Include="Assets\QuickCutsceneCreator\Scripts\QCLegacyAnimationAddon.cs" />
-    <Compile Include="Assets\QuickCutsceneCreator\Scripts\QCNavigatorAddon.cs" />
-    <Compile Include="Assets\QuickCutsceneCreator\Scripts\QCSceneViewCameraFollow.cs" />
-    <Compile Include="Assets\QuickCutsceneCreator\Scripts\QuickCutsceneController.cs" />
-    <Compile Include="Assets\Scripts\FBScript.cs" />
+    <Compile Include="Assets\Misc.cs" />
+    <Compile Include="Assets\Scripts\Cutscene\CutsceneManager.cs" />
+    <Compile Include="Assets\Scripts\Gameplay Manager\ButtonManager.cs" />
     <Compile Include="Assets\Scripts\Gameplay Manager\EndPointTrigger.cs" />
     <Compile Include="Assets\Scripts\Gameplay Manager\FollowPath.cs" />
     <Compile Include="Assets\Scripts\Gameplay Manager\GameManager.cs" />
     <Compile Include="Assets\Scripts\Gameplay Manager\MainMenuManager.cs" />
+    <Compile Include="Assets\Scripts\Gameplay Manager\MovingObstaclesManager.cs" />
     <Compile Include="Assets\Scripts\Gameplay Manager\MusicManager.cs" />
     <Compile Include="Assets\Scripts\Gameplay Manager\PathDefinition.cs" />
     <Compile Include="Assets\Scripts\Gameplay Manager\PlayerController.cs" />
-    <Compile Include="Assets\Scripts\Gameplay Manager\SpikeballManager.cs" />
     <Compile Include="Assets\Scripts\Gameplay Manager\TimerManager.cs" />
     <Compile Include="Assets\Scripts\Score and LeaderBoard\CoinScore.cs" />
     <Compile Include="Assets\Scripts\Score and LeaderBoard\DisplayHighScores.cs" />
+    <Compile Include="Assets\Scripts\Score and LeaderBoard\FBScript.cs" />
     <Compile Include="Assets\Scripts\Score and LeaderBoard\FacebookManager.cs" />
     <Compile Include="Assets\Scripts\Score and LeaderBoard\HighScores.cs" />
     <Compile Include="Assets\Scripts\Score and LeaderBoard\InputManager.cs" />
@@ -211,6 +197,7 @@
     <Compile Include="Assets\spike.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Assets\Plugins\Android\AndroidManifest.xml" />
     <None Include="Assets\Unity SDK\FacebookSDK\SDK\Editor\android\DefaultAndroidManifest.xml" />
     <None Include="Assets\Unity SDK\FacebookSDK\SDK\Scripts\Canvas\Resources\JSSDKBindings.txt" />
     <None Include="Assets\Unity SDK\Fonts\OFL.txt" />
