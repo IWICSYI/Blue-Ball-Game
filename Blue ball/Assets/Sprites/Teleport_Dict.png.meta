@@ -1,0 +1,333 @@
+fileFormatVersion: 2
+guid: f6a97f8ebed2e124b8c1d4fee771d27b
+timeCreated: 1457888348
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Teleport_Dict_0
+    21300002: Teleport_Dict_1
+    21300004: Teleport_Dict_2
+    21300006: Teleport_Dict_3
+    21300008: Teleport_Dict_4
+    21300010: Teleport_Dict_5
+    21300012: Teleport_Dict_6
+    21300014: Teleport_Dict_7
+    21300016: Teleport_Dict_8
+    21300018: Teleport_Dict_9
+    21300020: Teleport_Dict_10
+    21300022: Teleport_Dict_11
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Teleport_Dict_0
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 532
+        width: 135
+        height: 218
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -28.5, y: 95}
+        - {x: -66.5, y: 79}
+        - {x: -66.5, y: -6}
+        - {x: -61.5, y: -16}
+        - {x: -43.5, y: -21}
+        - {x: -66.5, y: -48}
+        - {x: -66.5, y: -105}
+        - {x: -61.5, y: -109}
+        - {x: 55.5, y: -109}
+        - {x: 57.5, y: -107}
+        - {x: 57.5, y: 82}
+        - {x: 15.5, y: 95}
+    - name: Teleport_Dict_1
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 532
+        width: 135
+        height: 218
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -62.5, y: 95}
+        - {x: -65.5, y: 89}
+        - {x: -65.5, y: -109}
+        - {x: 60.5, y: -109}
+        - {x: 60.5, y: 91}
+        - {x: 49.5, y: 95}
+    - name: Teleport_Dict_2
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 270
+        width: 135
+        height: 218
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -62.5, y: 100}
+        - {x: -66.5, y: 94}
+        - {x: -66.5, y: -10}
+        - {x: -54.5, y: -18}
+        - {x: -50.5, y: -18}
+        - {x: -44.5, y: -19}
+        - {x: -49.5, y: -18}
+        - {x: -51.5, y: -18}
+        - {x: -59.5, y: -23}
+        - {x: -66.5, y: -31}
+        - {x: -66.5, y: -100}
+        - {x: -63.5, y: -106}
+        - {x: -57.5, y: -109}
+        - {x: 63.5, y: -109}
+        - {x: 65.5, y: -106}
+        - {x: 65.5, y: 100}
+    - name: Teleport_Dict_3
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 532
+        width: 135
+        height: 218
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -63.5, y: 95}
+        - {x: -64.5, y: 93}
+        - {x: -64.5, y: -104}
+        - {x: -61.5, y: -109}
+        - {x: 59.5, y: -109}
+        - {x: 63.5, y: -102}
+        - {x: 63.5, y: 95}
+    - name: Teleport_Dict_4
+      rect:
+        serializedVersion: 2
+        x: 822
+        y: 532
+        width: 135
+        height: 218
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -43.5, y: 95}
+        - {x: -63.5, y: 91}
+        - {x: -63.5, y: 42}
+        - {x: -58.5, y: 40}
+        - {x: -56.5, y: 39}
+        - {x: -56.5, y: 40}
+        - {x: -58.5, y: 39}
+        - {x: -63.5, y: 35}
+        - {x: -63.5, y: -109}
+        - {x: 63.5, y: -109}
+        - {x: 64.5, y: -107}
+        - {x: 64.5, y: 89}
+        - {x: 51.5, y: 95}
+    - name: Teleport_Dict_5
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 270
+        width: 135
+        height: 218
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -65.5, y: 100}
+        - {x: -65.5, y: -106}
+        - {x: -62.5, y: -109}
+        - {x: 67.5, y: -109}
+        - {x: 67.5, y: 96}
+        - {x: 64.5, y: 100}
+    - name: Teleport_Dict_6
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 270
+        width: 135
+        height: 218
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 67.5, y: -10}
+        - {x: 67.5, y: 100}
+        - {x: 63.5, y: 101}
+        - {x: -44.5, y: 101}
+        - {x: -55.5, y: 99}
+        - {x: -67.5, y: 83}
+        - {x: -67.5, y: -109}
+        - {x: 62.5, y: -109}
+        - {x: 67.5, y: -98}
+        - {x: 67.5, y: -32}
+        - {x: 58.5, y: -23}
+    - name: Teleport_Dict_7
+      rect:
+        serializedVersion: 2
+        x: 822
+        y: 270
+        width: 135
+        height: 218
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -38.5, y: 101}
+        - {x: -47.5, y: 100}
+        - {x: -67.5, y: 92}
+        - {x: -67.5, y: -109}
+        - {x: 58.5, y: -109}
+        - {x: 67.5, y: -102}
+        - {x: 67.5, y: 95}
+        - {x: 56.5, y: 101}
+    - name: Teleport_Dict_8
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 14
+        width: 135
+        height: 218
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42.5, y: 101}
+        - {x: -67.5, y: 89}
+        - {x: -67.5, y: -93}
+        - {x: -59.5, y: -109}
+        - {x: 62.5, y: -109}
+        - {x: 67.5, y: -101}
+        - {x: 67.5, y: 101}
+    - name: Teleport_Dict_9
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 14
+        width: 135
+        height: 218
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -67.5, y: 101}
+        - {x: -67.5, y: -108}
+        - {x: -62.5, y: -109}
+        - {x: 62.5, y: -109}
+        - {x: 67.5, y: -104}
+        - {x: 67.5, y: 101}
+      - - {x: -65.5, y: 18}
+        - {x: -67.5, y: 17}
+        - {x: -67.5, y: 7}
+        - {x: -65.5, y: 5}
+        - {x: -61.5, y: 5}
+        - {x: -57.5, y: 11}
+        - {x: -57.5, y: 14}
+        - {x: -60.5, y: 17}
+    - name: Teleport_Dict_10
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 15
+        width: 135
+        height: 218
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 55.5, y: 97}
+        - {x: -59.5, y: 97}
+        - {x: -67.5, y: 77}
+        - {x: -67.5, y: 49}
+        - {x: -54.5, y: 42}
+        - {x: -50.5, y: 43}
+        - {x: -67.5, y: 31}
+        - {x: -67.5, y: -109}
+        - {x: 67.5, y: -109}
+        - {x: 67.5, y: 64}
+        - {x: 63.5, y: 87}
+      - - {x: -67.5, y: 15}
+        - {x: -67.5, y: 7}
+        - {x: -65.5, y: 5}
+        - {x: -64.5, y: 5}
+        - {x: -59.5, y: 10}
+        - {x: -59.5, y: 12}
+        - {x: -63.5, y: 16}
+    - name: Teleport_Dict_11
+      rect:
+        serializedVersion: 2
+        x: 822
+        y: 21
+        width: 135
+        height: 218
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -58.5, y: 92}
+        - {x: -67.5, y: 84}
+        - {x: -67.5, y: -93}
+        - {x: -63.5, y: -109}
+        - {x: 67.5, y: -109}
+        - {x: 67.5, y: 84}
+        - {x: 57.5, y: 92}
+      - - {x: -66.5, y: 9}
+        - {x: -67.5, y: 8}
+        - {x: -67.5, y: 1}
+        - {x: -64.5, y: 1}
+        - {x: -61.5, y: 2}
+        - {x: -61.5, y: 6}
+        - {x: -63.5, y: 9}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
