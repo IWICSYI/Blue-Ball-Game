@@ -1,0 +1,210 @@
+-debug
+-target:library
+-nowarn:0169
+-out:Temp/Assembly-CSharp.dll
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEditor.dll"
+-define:UNITY_5_3_2
+-define:UNITY_5_3
+-define:UNITY_5
+-define:ENABLE_NEW_BUGREPORTER
+-define:ENABLE_AUDIO
+-define:ENABLE_CACHING
+-define:ENABLE_CLOTH
+-define:ENABLE_FRAME_DEBUGGER
+-define:ENABLE_GENERICS
+-define:ENABLE_HOME_SCREEN
+-define:ENABLE_IMAGEEFFECTS
+-define:ENABLE_LIGHT_PROBES_LEGACY
+-define:ENABLE_MICROPHONE
+-define:ENABLE_MULTIPLE_DISPLAYS
+-define:ENABLE_PHYSICS
+-define:ENABLE_PLUGIN_INSPECTOR
+-define:ENABLE_SHADOWS
+-define:ENABLE_SINGLE_INSTANCE_BUILD_SETTING
+-define:ENABLE_SPRITERENDERER_FLIPPING
+-define:ENABLE_SPRITES
+-define:ENABLE_SPRITE_POLYGON
+-define:ENABLE_TERRAIN
+-define:ENABLE_RAKNET
+-define:ENABLE_UNET
+-define:ENABLE_UNITYEVENTS
+-define:ENABLE_VR
+-define:ENABLE_WEBCAM
+-define:ENABLE_WWW
+-define:ENABLE_CLOUD_SERVICES
+-define:ENABLE_CLOUD_SERVICES_ADS
+-define:ENABLE_CLOUD_HUB
+-define:ENABLE_CLOUD_PROJECT_ID
+-define:ENABLE_CLOUD_SERVICES_PURCHASING
+-define:ENABLE_CLOUD_SERVICES_ANALYTICS
+-define:ENABLE_CLOUD_SERVICES_UNET
+-define:ENABLE_CLOUD_SERVICES_BUILD
+-define:ENABLE_CLOUD_LICENSE
+-define:ENABLE_EDITOR_METRICS
+-define:ENABLE_EDITOR_METRICS_CACHING
+-define:INCLUDE_DYNAMIC_GI
+-define:INCLUDE_GI
+-define:INCLUDE_IL2CPP
+-define:INCLUDE_DIRECTX12
+-define:PLATFORM_SUPPORTS_MONO
+-define:ENABLE_LOCALIZATION
+-define:ENABLE_ANDROID_ATLAS_ETC1_COMPRESSION
+-define:ENABLE_EDITOR_TESTS_RUNNER
+-define:UNITY_ANDROID
+-define:UNITY_ANDROID_API
+-define:ENABLE_SUBSTANCE
+-define:ENABLE_TEXTUREID_MAP
+-define:ENABLE_EGL
+-define:ENABLE_NETWORK
+-define:ENABLE_RUNTIME_GI
+-define:ENABLE_CRUNCH_TEXTURE_COMPRESSION
+-define:ENABLE_LOG_MIXED_STACKTRACE
+-define:ENABLE_UNITYWEBREQUEST
+-define:PLATFORM_SUPPORTS_ADS_ID
+-define:ENABLE_UNITYADS_RUNTIME
+-define:UNITY_UNITYADS_API
+-define:ENABLE_MONO
+-define:ENABLE_PROFILER
+-define:DEBUG
+-define:TRACE
+-define:UNITY_ASSERTIONS
+-define:UNITY_EDITOR
+-define:UNITY_EDITOR_64
+-define:UNITY_EDITOR_WIN
+Assets/Misc.cs
+Assets/Scripts/Cutscene/CutsceneManager.cs
+"Assets/Scripts/Gameplay Manager/ButtonManager.cs"
+"Assets/Scripts/Gameplay Manager/EndPointTrigger.cs"
+"Assets/Scripts/Gameplay Manager/FollowPath.cs"
+"Assets/Scripts/Gameplay Manager/GameManager.cs"
+"Assets/Scripts/Gameplay Manager/MainMenuManager.cs"
+"Assets/Scripts/Gameplay Manager/MovingObstaclesManager.cs"
+"Assets/Scripts/Gameplay Manager/MusicManager.cs"
+"Assets/Scripts/Gameplay Manager/PathDefinition.cs"
+"Assets/Scripts/Gameplay Manager/PlayerController.cs"
+"Assets/Scripts/Gameplay Manager/TimerManager.cs"
+"Assets/Scripts/Score and LeaderBoard/CoinScore.cs"
+"Assets/Scripts/Score and LeaderBoard/DisplayHighScores.cs"
+"Assets/Scripts/Score and LeaderBoard/FBScript.cs"
+"Assets/Scripts/Score and LeaderBoard/FacebookManager.cs"
+"Assets/Scripts/Score and LeaderBoard/HighScores.cs"
+"Assets/Scripts/Score and LeaderBoard/InputManager.cs"
+"Assets/Scripts/Score and LeaderBoard/ScoreManager.cs"
+"Assets/Unity SDK/CNControls/Graphics/Scripts/CnInputSystem/CnInputManager.cs"
+"Assets/Unity SDK/CNControls/Graphics/Scripts/CnInputSystem/VirtualAxis.cs"
+"Assets/Unity SDK/CNControls/Graphics/Scripts/CnInputSystem/VirtualButton.cs"
+"Assets/Unity SDK/CNControls/Graphics/Scripts/Controllers/Dpad.cs"
+"Assets/Unity SDK/CNControls/Graphics/Scripts/Controllers/DpadAxis.cs"
+"Assets/Unity SDK/CNControls/Graphics/Scripts/Controllers/InputHelpers/BaseInputHelper.cs"
+"Assets/Unity SDK/CNControls/Graphics/Scripts/Controllers/InputHelpers/ButtonInputHelper.cs"
+"Assets/Unity SDK/CNControls/Graphics/Scripts/Controllers/InputHelpers/DpadInputHelper.cs"
+"Assets/Unity SDK/CNControls/Graphics/Scripts/Controllers/InputHelpers/JoystickInputHelper.cs"
+"Assets/Unity SDK/CNControls/Graphics/Scripts/Controllers/InputHelpers/TouchpadInputHelper.cs"
+"Assets/Unity SDK/CNControls/Graphics/Scripts/Controllers/SensitiveJoystick.cs"
+"Assets/Unity SDK/CNControls/Graphics/Scripts/Controllers/SimpleButton.cs"
+"Assets/Unity SDK/CNControls/Graphics/Scripts/Controllers/SimpleJoystick.cs"
+"Assets/Unity SDK/CNControls/Graphics/Scripts/Controllers/Touchpad.cs"
+"Assets/Unity SDK/FacebookSDK/Examples/Scripts/ConsoleBase.cs"
+"Assets/Unity SDK/FacebookSDK/Examples/Scripts/LogView.cs"
+"Assets/Unity SDK/FacebookSDK/Examples/Scripts/MenuBase.cs"
+"Assets/Unity SDK/FacebookSDK/Examples/Scripts/SubMenus/AccessTokenMenu.cs"
+"Assets/Unity SDK/FacebookSDK/Examples/Scripts/SubMenus/AppEvents.cs"
+"Assets/Unity SDK/FacebookSDK/Examples/Scripts/SubMenus/AppInvites.cs"
+"Assets/Unity SDK/FacebookSDK/Examples/Scripts/SubMenus/AppLinks.cs"
+"Assets/Unity SDK/FacebookSDK/Examples/Scripts/SubMenus/AppRequests.cs"
+"Assets/Unity SDK/FacebookSDK/Examples/Scripts/SubMenus/DialogShare.cs"
+"Assets/Unity SDK/FacebookSDK/Examples/Scripts/SubMenus/GameGroups.cs"
+"Assets/Unity SDK/FacebookSDK/Examples/Scripts/SubMenus/GraphRequest.cs"
+"Assets/Unity SDK/FacebookSDK/Examples/Scripts/SubMenus/MainMenu.cs"
+"Assets/Unity SDK/FacebookSDK/Examples/Scripts/SubMenus/Pay.cs"
+"Assets/Unity SDK/FacebookSDK/SDK/Scripts/AccessToken.cs"
+"Assets/Unity SDK/FacebookSDK/SDK/Scripts/AppEventName.cs"
+"Assets/Unity SDK/FacebookSDK/SDK/Scripts/AppEventParameterName.cs"
+"Assets/Unity SDK/FacebookSDK/SDK/Scripts/CallbackManager.cs"
+"Assets/Unity SDK/FacebookSDK/SDK/Scripts/Canvas/CanvasFacebook.cs"
+"Assets/Unity SDK/FacebookSDK/SDK/Scripts/Canvas/CanvasFacebookGameObject.cs"
+"Assets/Unity SDK/FacebookSDK/SDK/Scripts/Canvas/CanvasFacebookLoader.cs"
+"Assets/Unity SDK/FacebookSDK/SDK/Scripts/Canvas/CanvasJSWrapper.cs"
+"Assets/Unity SDK/FacebookSDK/SDK/Scripts/Canvas/ICanvasFacebook.cs"
+"Assets/Unity SDK/FacebookSDK/SDK/Scripts/Canvas/ICanvasFacebookCallbackHandler.cs"
+"Assets/Unity SDK/FacebookSDK/SDK/Scripts/Canvas/ICanvasFacebookImplementation.cs"
+"Assets/Unity SDK/FacebookSDK/SDK/Scripts/Canvas/ICanvasJSWrapper.cs"
+"Assets/Unity SDK/FacebookSDK/SDK/Scripts/Canvas/JsBridge.cs"
+"Assets/Unity SDK/FacebookSDK/SDK/Scripts/ComponentFactory.cs"
+"Assets/Unity SDK/FacebookSDK/SDK/Scripts/Constants.cs"
+"Assets/Unity SDK/FacebookSDK/SDK/Scripts/FB.cs"
+"Assets/Unity SDK/FacebookSDK/SDK/Scripts/FacebookBase.cs"
+"Assets/Unity SDK/FacebookSDK/SDK/Scripts/FacebookGameObject.cs"
+"Assets/Unity SDK/FacebookSDK/SDK/Scripts/FacebookSdkVersion.cs"
+"Assets/Unity SDK/FacebookSDK/SDK/Scripts/FacebookSettings.cs"
+"Assets/Unity SDK/FacebookSDK/SDK/Scripts/FacebookUnityPlatform.cs"
+"Assets/Unity SDK/FacebookSDK/SDK/Scripts/IFacebook.cs"
+"Assets/Unity SDK/FacebookSDK/SDK/Scripts/IFacebookCallbackHandler.cs"
+"Assets/Unity SDK/FacebookSDK/SDK/Scripts/IFacebookImplementation.cs"
+"Assets/Unity SDK/FacebookSDK/SDK/Scripts/MethodArguments.cs"
+"Assets/Unity SDK/FacebookSDK/SDK/Scripts/MethodCall.cs"
+"Assets/Unity SDK/FacebookSDK/SDK/Scripts/Mobile/Android/AndroidFacebook.cs"
+"Assets/Unity SDK/FacebookSDK/SDK/Scripts/Mobile/Android/AndroidFacebookGameObject.cs"
+"Assets/Unity SDK/FacebookSDK/SDK/Scripts/Mobile/Android/AndroidFacebookLoader.cs"
+"Assets/Unity SDK/FacebookSDK/SDK/Scripts/Mobile/Android/FBJavaClass.cs"
+"Assets/Unity SDK/FacebookSDK/SDK/Scripts/Mobile/Android/IAndroidJavaClass.cs"
+"Assets/Unity SDK/FacebookSDK/SDK/Scripts/Mobile/IMobileFacebook.cs"
+"Assets/Unity SDK/FacebookSDK/SDK/Scripts/Mobile/IMobileFacebookCallbackHandler.cs"
+"Assets/Unity SDK/FacebookSDK/SDK/Scripts/Mobile/IMobileFacebookImplementation.cs"
+"Assets/Unity SDK/FacebookSDK/SDK/Scripts/Mobile/IOS/IIOSWrapper.cs"
+"Assets/Unity SDK/FacebookSDK/SDK/Scripts/Mobile/IOS/IOSFacebook.cs"
+"Assets/Unity SDK/FacebookSDK/SDK/Scripts/Mobile/IOS/IOSFacebookGameObject.cs"
+"Assets/Unity SDK/FacebookSDK/SDK/Scripts/Mobile/IOS/IOSFacebookLoader.cs"
+"Assets/Unity SDK/FacebookSDK/SDK/Scripts/Mobile/IOS/IOSWrapper.cs"
+"Assets/Unity SDK/FacebookSDK/SDK/Scripts/Mobile/MobileFacebook.cs"
+"Assets/Unity SDK/FacebookSDK/SDK/Scripts/Mobile/MobileFacebookGameObject.cs"
+"Assets/Unity SDK/FacebookSDK/SDK/Scripts/NativeDialogModes.cs"
+"Assets/Unity SDK/FacebookSDK/SDK/Scripts/OGActionType.cs"
+"Assets/Unity SDK/FacebookSDK/SDK/Scripts/PlatformEditor/EditorFacebook.cs"
+"Assets/Unity SDK/FacebookSDK/SDK/Scripts/PlatformEditor/EditorFacebookGameObject.cs"
+"Assets/Unity SDK/FacebookSDK/SDK/Scripts/PlatformEditor/EditorFacebookLoader.cs"
+"Assets/Unity SDK/FacebookSDK/SDK/Scripts/PlatformEditor/EditorFacebookMockDialog.cs"
+"Assets/Unity SDK/FacebookSDK/SDK/Scripts/PlatformEditor/MockDialogs/EmptyMockDialog.cs"
+"Assets/Unity SDK/FacebookSDK/SDK/Scripts/PlatformEditor/MockDialogs/MockLoginDialog.cs"
+"Assets/Unity SDK/FacebookSDK/SDK/Scripts/PlatformEditor/MockDialogs/MockShareDialog.cs"
+"Assets/Unity SDK/FacebookSDK/SDK/Scripts/Properties/AssemblyInfo.cs"
+"Assets/Unity SDK/FacebookSDK/SDK/Scripts/Results/AccessTokenRefreshResult.cs"
+"Assets/Unity SDK/FacebookSDK/SDK/Scripts/Results/AppInviteResult.cs"
+"Assets/Unity SDK/FacebookSDK/SDK/Scripts/Results/AppLinkResult.cs"
+"Assets/Unity SDK/FacebookSDK/SDK/Scripts/Results/AppReqeustResult.cs"
+"Assets/Unity SDK/FacebookSDK/SDK/Scripts/Results/GraphResult.cs"
+"Assets/Unity SDK/FacebookSDK/SDK/Scripts/Results/GroupCreateResult.cs"
+"Assets/Unity SDK/FacebookSDK/SDK/Scripts/Results/GroupJoinResult.cs"
+"Assets/Unity SDK/FacebookSDK/SDK/Scripts/Results/IAccessTokenRefreshResult.cs"
+"Assets/Unity SDK/FacebookSDK/SDK/Scripts/Results/IAppInviteResult.cs"
+"Assets/Unity SDK/FacebookSDK/SDK/Scripts/Results/IAppLinkResult.cs"
+"Assets/Unity SDK/FacebookSDK/SDK/Scripts/Results/IAppRequestResult.cs"
+"Assets/Unity SDK/FacebookSDK/SDK/Scripts/Results/IGraphResult.cs"
+"Assets/Unity SDK/FacebookSDK/SDK/Scripts/Results/IGroupCreateResult.cs"
+"Assets/Unity SDK/FacebookSDK/SDK/Scripts/Results/IGroupJoinResult.cs"
+"Assets/Unity SDK/FacebookSDK/SDK/Scripts/Results/IInternalResult.cs"
+"Assets/Unity SDK/FacebookSDK/SDK/Scripts/Results/ILoginResult.cs"
+"Assets/Unity SDK/FacebookSDK/SDK/Scripts/Results/IPayResult.cs"
+"Assets/Unity SDK/FacebookSDK/SDK/Scripts/Results/IResult.cs"
+"Assets/Unity SDK/FacebookSDK/SDK/Scripts/Results/IShareResult.cs"
+"Assets/Unity SDK/FacebookSDK/SDK/Scripts/Results/LoginResult.cs"
+"Assets/Unity SDK/FacebookSDK/SDK/Scripts/Results/PayResult.cs"
+"Assets/Unity SDK/FacebookSDK/SDK/Scripts/Results/ResultBase.cs"
+"Assets/Unity SDK/FacebookSDK/SDK/Scripts/Results/ShareResult.cs"
+"Assets/Unity SDK/FacebookSDK/SDK/Scripts/Utils/AsyncRequestString.cs"
+"Assets/Unity SDK/FacebookSDK/SDK/Scripts/Utils/FacebookLogger.cs"
+"Assets/Unity SDK/FacebookSDK/SDK/Scripts/Utils/HttpMethod.cs"
+"Assets/Unity SDK/FacebookSDK/SDK/Scripts/Utils/IFacebookLogger.cs"
+"Assets/Unity SDK/FacebookSDK/SDK/Scripts/Utils/MiniJson.cs"
+"Assets/Unity SDK/FacebookSDK/SDK/Scripts/Utils/Utilities.cs"
+"Assets/Unity SDK/Tiled2Unity/Scripts/Runtime/ImportBehaviour.cs"
+"Assets/Unity SDK/Tiled2Unity/Scripts/Runtime/SortingLayerExposed.cs"
+"Assets/Unity SDK/Tiled2Unity/Scripts/Runtime/TileAnimator.cs"
+"Assets/Unity SDK/Tiled2Unity/Scripts/Runtime/TiledInitialShaderProperties.cs"
+"Assets/Unity SDK/Tiled2Unity/Scripts/Runtime/TiledMap.cs"
+Assets/spike.cs
+-r:"C:\Program Files\Unity\Editor\Data\Mono\lib\mono\unity\System.Runtime.Serialization.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Mono\lib\mono\unity\System.Xml.Linq.dll"
